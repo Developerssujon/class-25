@@ -1,0 +1,191 @@
+/* Header-section */
+
+
+  
+ 
+   
+   /* hero-section */
+
+   .tittle{
+    position: relative;
+   }
+   .tittle h2::after {
+    content: "";
+    top: 82px;
+    left: 617px;
+    width: 4%;
+    height: 4px;
+    position: absolute;
+    background-color: #3c64e6;
+}
+          
+     
+       /* Service Area */
+       
+   .single-service{
+         position: relative;
+            
+   }
+
+
+   .single-service h2::after {
+    content: "";
+    top: 113px;
+    left: 31px;
+    width: 79%;
+    height: 1px;
+    position: absolute;
+    background-color: antiquewhite;
+}
+.single-service:hover{
+background-color: #4c74e8;
+transition-duration: .5s;
+}
+
+
+.single-service:hover h2{
+   color: #e8f3f1;
+   transition-duration: .5s;
+}
+
+
+.titteles{
+    background-color: #0f70ff;
+}
+
+
+.btns a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0f70ff;
+    color: #e8f3f1;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+  
+}
+
+.btns{
+ 
+}
+
+.btns a::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    transition-duration: .5s;
+    z-index: -1;
+    background-color:rgb(84, 46, 46);
+   
+   
+}
+
+
+.btns a:hover::before{
+    width: 100%;
+   
+    
+  
+   
+    
+}
+
+
+
+.btnn a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.titteles{
+    margin-top: 40px;
+    padding: 50px;
+}
+.titteles h5{
+   padding: 20px 0;
+}
+
+
+.submitted{
+    padding: 50px;
+}
+.started {
+   margin-top: 50px;
+}
+
+.started a{
+    text-decoration: none;
+    background-color: #0f70ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    .video-section{
+       background-image: url("./free-bg.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding: 200px 0;
+       position: relative;
+       z-index: 9;
+    }
+    
+    .video-section::before{
+       content: "";
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       background-color: rgba(13, 35, 107, 0.801);
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+   }
+   .titttle{
+       color: #e8f3f1;
+       text-align: center;
+   } 
+    
+    
+   
+   
+   .titttle{
+   position: relative;
+   }
+   .titttle h3::after {
+    content: "";
+    top: 135px;
+    left: 607px;
+    position: absolute;
+    width: 82px;
+    height: 4px;
+    background-color: whitesmoke;
+}
